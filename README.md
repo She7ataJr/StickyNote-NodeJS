@@ -1,9 +1,8 @@
 # StickyNote-NodeJS
 The Sticky Note App - Backend is the server-side component of a web application that allows users to create, edit, and delete virtual sticky notes. This application is built using Node.js and Express.
 
-Installation
+## Installation
 To install the app, follow these steps:
-
 Clone the repository to your local machine using git clone.
 Install the required dependencies using npm install.
 Create a .env file in the root directory with the following environment variables:
@@ -26,7 +25,7 @@ PUT /notes/:id: Updates a specific sticky note.
 DELETE /notes/:id: Deletes a specific sticky note.
 Each of these endpoints requires an authorization token to be included in the request headers. To obtain a token, send a POST request to /auth/login with a valid username and password in the request body.
 
-#Contributing
+# Contributing
 Contributions to the Sticky Note App - Backend are welcome! To contribute, follow these steps:
 
 Fork the repository on GitHub.
@@ -34,8 +33,6 @@ Create a new branch for your changes.
 Make changes to the code and commit them to your branch.
 Push your branch to your forked repository.
 Create a pull request to merge your changes into the main repository.
-License
-The Sticky Note App - Backend is licensed under the MIT License. See LICENSE for more information.
 
 #Credits
 The Sticky Note App - Backend was created by Muhammad Shehata. Special thanks to Mahmoud Elwan and May Awad for their help.
